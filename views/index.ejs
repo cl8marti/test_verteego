@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Test Technique</title>
+    <style>
+        * { margin: 2; padding: 0; box-sizing: border-box; }
+        body { font: 13px Helvetica, Arial; }
+        form { background: #fff; position: fixed; bottom: 0; width: 100%; border-color: #000;}
+        form input { border-style: solid; border-width: 1px; padding: 10px; width: 95%;}
+        span { display: inline-block; background: #fff; padding: 10px; width: 95%;}
+    </style>
+    <script src="../../socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  <body>
+    <span id="summary"></span>
+    <form action="/" method="POST" id="chat">
+        <input id="txt" placeholder="type your message here..." />
+    </form>
+    <script src="chat.js">
+    </script>
+  </body>
+</html>

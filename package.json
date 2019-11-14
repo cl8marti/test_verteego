@@ -1,0 +1,13 @@
+{
+    "name": "test_technique",
+    "version": "1.0.0",
+    "description": "Very simple chat",
+    "main": "test.js",
+    "author": "Clement Martin",
+    "dependencies": {
+        "dateformat": "^3.0.3",
+        "ejs": "^2.7.1",
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0"
+    }
+}
